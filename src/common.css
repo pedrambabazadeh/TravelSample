@@ -1,0 +1,34 @@
+
+/* Alignment  General*/
+.row
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row.vertical-center
+{
+    align-items: center;
+}
+
+
+/* Alignment medium*/
+
+@media only screen and (min-width: 768px )
+{
+    .col.md-50
+    {
+        width: 50%;
+    }
+}
+
+
+/* Features*/
+
+.nav-ul>li
+{
+    display: inline-block;
+    list-style-type: none;
+}
