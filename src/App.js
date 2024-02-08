@@ -1,6 +1,6 @@
 import './App.css';
 import { themeProvider } from './ThemeContext';
-import Nav from './Components/Nav'
+import Nav from './Components/nav/Nav'
 
 function App() {
   return (
